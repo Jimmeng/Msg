@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://118.24.124.228/user
+    username: root
+    password: 1234
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
